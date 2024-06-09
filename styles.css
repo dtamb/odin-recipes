@@ -43,12 +43,17 @@ img {
     object-fit: cover;
 }
 
-.soba{
-
+.soba {
+    background-color:rgb(197, 243, 178);
+    color:rgb(177, 92, 52);
 }
-.french{
 
+.french {
+    background-color:lightyellow;
+    color:orange;
 }
 .eggplant{
+    background-color: pink;
+    color: purple;
 
 }
