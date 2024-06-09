@@ -1,3 +1,45 @@
 body {
     font-family: Arial, Verdana, sans-serif;
 }
+
+div.container{
+    text-align: center;
+}
+
+ul.recipe-list{
+    display: inline-block;
+    text-align: left;
+}
+
+#home-title{
+    width: 400px;
+    background-color:lightskyblue;
+    margin: 15px auto;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    margin: 5px auto;
+}
+
+.recipes{
+    background-color: #fae0e0;
+    padding: 5px;
+    margin: 5px auto;
+    width: 300px;
+    text-align: center;
+    list-style-type: none;
+    border-style:groove;
+}
+
+.soba{
+
+}
+.french{
+
+}
+.eggplant{
+
+}
