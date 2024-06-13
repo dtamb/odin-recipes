@@ -2,6 +2,12 @@ body {
     font-family: Arial, Verdana, sans-serif;
 }
 
+.nav-bar{
+    width: auto;
+    height: auto;
+    background-color: #2A2B2E;
+}
+
 div.container{
     text-align: center;
 }
@@ -12,16 +18,14 @@ ul.recipe-list{
 }
 
 #home-title{
-    width: 400px;
-    background-color:lightskyblue;
-    margin: 15px auto;
-    border-style: solid;
+    padding: 10px auto 10px auto;
+    color: white;
 }
 
 h1 {
     text-align: center;
-    padding: 15px;
-    margin: 5px auto;
+    font-size: 15px;
+
 }
 
 .recipes{
@@ -38,22 +42,29 @@ img {
     width: 500px;
     height: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     object-fit: cover;
+    margin: 20px auto;
 }
 
-.soba {
-    background-color:rgb(197, 243, 178);
+.soba .title{
     color:rgb(177, 92, 52);
+    background-color: #E4EDD4;
 }
 
-.french {
+.french .title{
     background-color:lightyellow;
     color:orange;
 }
-.eggplant{
+.eggplant .title{
     background-color: pink;
     color: purple;
 
+}
+
+.main-content{
+    padding: 5px 15px;
+}
+
+li{
+    padding: 2px 0;
 }
